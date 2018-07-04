@@ -16,6 +16,7 @@ else -> return 0  -- note that new line is optional.
 function_name := x -> return x * x  
 
 -- again new line/indent is optional. statement under a block can be specified by simply adding comma at the end of statement
+
 function_name := x ->   
 x = x * x,
 return x
