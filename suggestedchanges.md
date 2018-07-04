@@ -2,7 +2,7 @@
 
 --oneliner 
 
-a := if a > b -> return b else - > return a
+a := if a + 5 > b -> return a + 5 else - > return a
 
 --blocks
 
