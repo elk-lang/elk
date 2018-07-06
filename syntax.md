@@ -71,14 +71,14 @@ while i < 5 => i := i + 1
 
 ### Object
 ```
-class book => 
-    * self :=title => -- for constructor
+class book -> 
+    * self :=title -> -- for constructor
         my.title := title, 
         my.owned := True 
         
-    * getTitle => return title
+    * getTitle -> return title
     
-    * setOwned => my.owned := !my.owned
+    * setOwned -> my.owned := !my.owned
     
 ```
     
