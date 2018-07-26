@@ -14,8 +14,10 @@ parser = Lark(r"""
 
     statement: name ":=" value
         | name ":" type ":=" value
+    
+    ?value: literal
 
-    ?value: dict
+    ?literal: dict
          | set
          | list
          | string
