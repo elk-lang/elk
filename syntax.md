@@ -34,11 +34,11 @@ d := square2(10.0) -- type error
 
 ### If statement
 ```
-x := if (a > 3) => b else => c -- single-line if (i.e. ternary operator)
-fib := n -> if (n <= 1) => 1 else => fib(n-1) + fib(n-2) -- in function
+x := if (a > 3) then b else c -- single-line if (i.e. ternary operator)
+fib := n -> if (n <= 1) then 1 else fib(n-1) + fib(n-2) -- in function
 -- using blocks
 fib2 := n -> {
-    if (n <= 1) => {
+    if (n <= 1) then {
         return 1
     } else => {
         return fib(n-1) + fib(n-2)
